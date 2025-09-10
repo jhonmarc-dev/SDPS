@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | SAN DIEGO PAROCHIAL SCHOOL INC.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="sdps_logo.png" alt="San Diego Parochial School Inc. Logo" class="logo-img">
+            </a>
+            <nav class="nav-links">
+                <ul>
+                    <li class="dropdown">
+                        <a href="index.html">Home</a>
+                        <div class="dropdown-content">
+                            <a href="about.html">About Us</a>
+                            <a href="#announcements">Announcements</a>
+                            <a href="news.html">News</a>
+                        </div>
+                    </li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#my-classroom">My Classroom</a></li>
+                    <li><a href="#enrollment">Enrollment</a></li>
+                    <li><a href="#finance">Finance</a></li>
+                    <li><a href="#feedback">Comments & Feedbacks</a></li>
+                    <li class="dropdown">
+                        <a href="#more">More</a>
+                        <div class="dropdown-content">
+                            <a href="#gallery">Gallery</a>
+                            <a href="#faqs">FAQs</a>
+                            <a href="#contact-us">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="news-section" class="content-section">
+            <div class="container">
+                <h3 class="section-title">News & Events</h3>
+                
+                <div class="news-item">
+                    <h4 class="event-title">BATTLE OF THE BRAINS 2020</h4>
+                    <div class="carousel-background">
+                        <div id="botb-carousel" class="carousel-container">
+                            <div class="carousel-slide fade">
+                                <img src="battle-of-brains-high-school.jpg" alt="VALAPSA Battle of the Brains 2020 - High School" class="carousel-img">
+                            </div>
+                            <div class="carousel-slide fade">
+                                <img src="battle-of-brains-grade-school.jpg" alt="VALAPSA Battle of the Brains 2020 - Grade School" class="carousel-img">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1, 'botb-carousel')">❮</a>
+                            <a class="next" onclick="plusSlides(1, 'botb-carousel')">❯</a>
+                        </div>
+                        <br>
+                        <div id="botb-dots" class="dot-container">
+                            <span class="dot" onclick="currentSlide(1, 'botb-carousel')"></span>
+                            <span class="dot" onclick="currentSlide(2, 'botb-carousel')"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-item">
+                    <h4 class="news-subtitle">20th Gawad Kalasag 2018</h4>
+                    <img src="gawad-kalasag-awarding.jpg" alt="San Diego Parochial School wins Gawad Kalasag Award" class="news-image">
+                    <p>San Diego Parochial School was chosen as the **Best School** in the 20th Gawad Kalasag 2018 Private High School Category.</p>
+                </div>
+
+                <div class="news-item">
+                    <h4 class="news-subtitle">SDPS on COVID-19 Preparedness</h4>
+                    <p>SDPS is one with the government in fighting COVID-19. It is our priority to ensure the safety and security of our students, faculty, and staff. The school has taken precautionary measures to ensure the safety of all the members of our community. **#SDPSREADYTOFIGHTCOVID19**</p>
+                    
+                    <div class="carousel-background" style="margin-top: 20px;">
+                        <div id="covid-carousel" class="carousel-container">
+                            <div class="carousel-slide fade">
+                                <img src="covid-info-poster.jpg" alt="COVID-19 Information Poster" class="carousel-img">
+                            </div>
+                            <div class="carousel-slide fade">
+                                <img src="handwashing-guide.jpg" alt="Handwashing Guide" class="carousel-img">
+                            </div>
+                            <div class="carousel-slide fade">
+                                <img src="wash-in-school-station.jpg" alt="Wash in School Station" class="carousel-img">
+                            </div>
+                            <div class="carousel-slide fade">
+                                <img src="hand-sanitizer-dispenser.jpg" alt="Hand Sanitizer Dispenser" class="carousel-img">
+                            </div>
+                            <div class="carousel-slide fade">
+                                <img src="staff-meeting-masks.jpg" alt="Staff Meeting with Masks" class="carousel-img">
+                            </div>
+                            <div class="carousel-slide fade">
+                                <img src="school-cleaning-1.jpg" alt="School Cleaning Activity 1" class="carousel-img">
+                            </div>
+                            <div class="carousel-slide fade">
+                                <img src="school-cleaning-2.jpg" alt="School Cleaning Activity 2" class="carousel-img">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1, 'covid-carousel')">❮</a>
+                            <a class="next" onclick="plusSlides(1, 'covid-carousel')">❯</a>
+                        </div>
+                        <br>
+                        <div id="covid-dots" class="dot-container">
+                            <span class="dot" onclick="currentSlide(1, 'covid-carousel')"></span>
+                            <span class="dot" onclick="currentSlide(2, 'covid-carousel')"></span>
+                            <span class="dot" onclick="currentSlide(3, 'covid-carousel')"></span>
+                            <span class="dot" onclick="currentSlide(4, 'covid-carousel')"></span>
+                            <span class="dot" onclick="currentSlide(5, 'covid-carousel')"></span>
+                            <span class="dot" onclick="currentSlide(6, 'covid-carousel')"></span>
+                            <span class="dot" onclick="currentSlide(7, 'covid-carousel')"></span>
+                        </div>
+                    </div>
+                </div>
+
+            
+
+                    <div class="news-item news-item-half">
+                        <h4 class="news-subtitle">Robotics Camp 2019</h4>
+                        <div class="carousel-background">
+                            <div id="robotics-carousel" class="carousel-container">
+                                <div class="carousel-slide fade">
+                                    <img src="robotics-students-at-computers.jpg" alt="Students working on a robotics project at a computer station" class="carousel-img">
+                                </div>
+                                <div class="carousel-slide fade">
+                                    <img src="robotics-students-with-kits.jpg" alt="Students sitting on the floor with their robotics kits" class="carousel-img">
+                                </div>
+                                <div class="carousel-slide fade">
+                                    <img src="robotics-teacher-with-students.jpg" alt="Students working together on a robotics activity on the classroom floor" class="carousel-img">
+                                </div>
+                                <div class="carousel-slide fade">
+                                    <img src="robotics-group-on-floor.jpg" alt="A group of students building robots with parts from their kits" class="carousel-img">
+                                </div>
+                                <a class="prev" onclick="plusSlides(-1, 'robotics-carousel')">❮</a>
+                                <a class="next" onclick="plusSlides(1, 'robotics-carousel')">❯</a>
+                            </div>
+                            <br>
+                            <div id="robotics-dots" class="dot-container">
+                                <span class="dot" onclick="currentSlide(1, 'robotics-carousel')"></span>
+                                <span class="dot" onclick="currentSlide(2, 'robotics-carousel')"></span>
+                                <span class="dot" onclick="currentSlide(3, 'robotics-carousel')"></span>
+                                <span class="dot" onclick="currentSlide(4, 'robotics-carousel')"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 San Diego Parochial School Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
