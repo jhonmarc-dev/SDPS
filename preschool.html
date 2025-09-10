@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preschool | SAN DIEGO PAROCHIAL SCHOOL INC.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="sdps_logo.png" alt="San Diego Parochial School Inc. Logo" class="logo-img">
+            </a>
+            <nav class="nav-links">
+                <ul>
+                    <li class="dropdown">
+                        <a href="index.html">Home</a>
+                        <div class="dropdown-content">
+                            <a href="about.html">About Us</a>
+                            <a href="index.html#announcements-section">Announcements</a>
+                            <a href="news.html">News</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="courses.html">Courses</a>
+                        <div class="dropdown-content">
+                            <a href="preschool.html">Preschool</a>
+                            <a href="elementary.html">Elementary</a>
+                            <a href="junior-high.html">Junior High School</a>
+                            <a href="senior-high.html">Senior High School</a>
+                        </div>
+                    </li>
+                    <li><a href="index.html#my-classroom">My Classroom</a></li>
+                    <li><a href="index.html#enrollment">Enrollment</a></li>
+                    <li><a href="index.html#finance">Finance</a></li>
+                    <li><a href="index.html#feedback">Comments & Feedbacks</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#more">More</a>
+                        <div class="dropdown-content">
+                            <a href="index.html#gallery">Gallery</a>
+                            <a href="index.html#faqs">FAQs</a>
+                            <a href="index.html#contact-us">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <div class="container">
+                <div class="about-flex-container">
+                    <div class="about-text-content">
+                        <h2 class="section-title">NURSERY TO SR. KINDER</h2>
+                        <p>Our Preschool Department offers a nurturing and engaging environment for our youngest learners. We focus on developing foundational skills through play-based activities that foster curiosity, social-emotional growth, and a love for learning.</p>
+                        <p>Our curriculum is designed to prepare children for elementary school, covering key areas such as early literacy, numeracy, and fine motor skills, while instilling core values in a fun and supportive setting.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="preschool-highlights" class="content-section text-center" style="background-color: #f0efe9;">
+            <div class="container">
+                <h3 class="section-title">Preschool Highlights</h3>
+                
+                <div class="carousel-container-outer">
+                    <div class="carousel-container-inner" id="preschool-gallery-carousel">
+                        <div class="carousel-slide-item fade">
+                            <img src="moving_up_2019.jpg" alt="Kindergarten Moving-Up Ceremony 2019" class="carousel-item-img">
+                            <div class="carousel-caption">KINDERGARTEN MOVING-UP CEREMONY 2019</div>
+                        </div>
+                        <div class="carousel-slide-item fade">
+                            <img src="buwan_ng_wika.jpg" alt="Buwan ng Wika Celebration" class="carousel-item-img">
+                            <div class="carousel-caption">BUWAN NG WIKA</div>
+                        </div>
+                        <div class="carousel-slide-item fade">
+                            <img src="sports_fest_2019.jpg" alt="Sports Fest 2019" class="carousel-item-img">
+                            <div class="carousel-caption">SPORTS FEST 2019</div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1, 'preschool-gallery-carousel')">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 'preschool-gallery-carousel')">&#10095;</a>
+                    </div>
+                    <div class="dot-container">
+                        <span class="dot" onclick="currentSlide(1, 'preschool-gallery-carousel')"></span>
+                        <span class="dot" onclick="currentSlide(2, 'preschool-gallery-carousel')"></span>
+                        <span class="dot" onclick="currentSlide(3, 'preschool-gallery-carousel')"></span>
+                    </div>
+                </div>
+                <div class="preschool-media-grid" style="margin-top: 60px;">
+                    <div class="preschool-media-item">
+                        <h4>STARLIGHT KIDS</h4>
+                        <p class="sub-text">THE OFFICIAL SCHOOL NEWSPAPER</p>
+                        <img src="starlight_kids_logo.png" alt="Starlight Kids Newspaper Logo" class="media-image">
+                        <p style="margin-top: 15px;">Explore news and features from our little stars!</p>
+                      
+                    </div>
+
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 San Diego Parochial School Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
