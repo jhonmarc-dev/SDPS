@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAN DIEGO PAROCHIAL SCHOOL INC.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <img src="sdps_logo.png" alt="San Diego Parochial School Inc. Logo" class="logo-img">
+            </a>
+            <nav class="nav-links">
+                <ul>
+                    <li class="dropdown">
+                        <a href="index.html">Home</a>
+                        <div class="dropdown-content">
+                            <a href="about.html">About Us</a>
+                            <a href="#announcements-section">Announcements</a>
+                            <a href="news.html">News</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="courses.html">Courses</a>
+                        <div class="dropdown-content">
+                            <a href="preschool.html">Preschool</a>
+                            <a href="elementary.html">Elementary</a>
+                            <a href="junior-high.html">Junior High School</a>
+                            <a href="senior-high.html">Senior High School</a>
+                        </div>
+                    </li>
+                    <li><a href="#my-classroom">My Classroom</a></li>
+                    <li><a href="#enrollment">Enrollment</a></li>
+                    <li><a href="#finance">Finance</a></li>
+                    <li><a href="#feedback">Comments & Feedbacks</a></li>
+                    <li class="dropdown">
+                        <a href="#more">More</a>
+                        <div class="dropdown-content">
+                            <a href="#gallery">Gallery</a>
+                            <a href="#faqs">FAQs</a>
+                            <a href="#contact-us">Contact Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="school-motto">Holistic School. Fun Learning. 21st Century Skills.</p>
+                    <h2 class="hero-title">Welcome to Our Community</h2>
+                    <p class="hero-subtitle">Let your children experience quality Catholic Education.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="enrollment" class="content-section text-center">
+            <div class="container">
+                <h3>Enrollment for Academic Year 2025-2026</h3>
+                <p class="enrollment-text">San Diego Parochial School, Inc. is now accepting enrollees for the academic year 2025-2026.</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSehBP_nSyGMePNo17GyI_Fz8tpMB6300vOASk09I7umwRqDVQ/viewform?usp=header" class="cta-button">Click Here to Register</a>
+                <p class="contact-info">For more details please call (02) 7957-99-36 and look for Ms. April Alejandrino.</p>
+            </div>
+        </section>
+
+        <section id="social-media" class="content-section text-center">
+            <div class="container">
+                <p>Follow us on Facebook: <a href="https://www.facebook.com/sandiegoparochialschool" target="_blank">www.facebook.com/sandiegoparochialschool</a></p>
+            </div>
+        </section>
+
+        <div class="carousel-background">
+            <section id="announcements-section" class="image-carousel">
+                <div class="carousel-container" id="announcements-carousel">
+                    <div class="carousel-slide fade">
+                        <img src="carousel-1.jpg" alt="Enroll Now" class="carousel-img">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="carousel-2.jpg" alt="2024 MTAP-NCR Math Contest Team Elimination Rounds (Private Schools Category)" class="carousel-img">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="carousel-3.jpg" alt="2024 MTAP-NCR Math Contest Team Elimination Rounds (Private and Science High School Category)" class="carousel-img">
+                    </div>
+                    <div class="carousel-slide fade">
+                        <img src="carousel-4.jpg" alt="2024 MTAP-NCR Math Contest Regional Individual & Team Finals" class="carousel-img">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 'announcements-carousel')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 'announcements-carousel')">&#10095;</a>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1, 'announcements-carousel')"></span>
+                    <span class="dot" onclick="currentSlide(2, 'announcements-carousel')"></span>
+                    <span class="dot" onclick="currentSlide(3, 'announcements-carousel')"></span>
+                    <span class="dot" onclick="currentSlide(4, 'announcements-carousel')"></span>
+                </div>
+            </section>
+        </div>
+
+        <section id="holistic-approach" class="content-section">
+            <div class="container">
+                <h3 class="section-title">Our Holistic Approach</h3>
+                <div class="approach-grid">
+                    <div class="approach-item">
+                        <img src="holistic-school-icon.jpg" alt="Holistic School Icon" class="approach-icon">
+                        <h4>Holistic School</h4>
+                        <p>As a Catholic school, we develop your children both in mind and spirit.</p>
+                    </div>
+                    <div class="approach-item">
+                        <img src="fun-learning-icon.jpg" alt="Fun Learning Icon" class="approach-icon">
+                        <h4>Fun Learning</h4>
+                        <p>We bring out your children's potential without leaving out the fun part.</p>
+                    </div>
+                    <div class="approach-item">
+                        <img src="21st-century-skills-icon.jpg" alt="21st Century Skills Icon" class="approach-icon">
+                        <h4>21st Century Skills</h4>
+                        <p>We prepare your children as future leaders, contributors, and heroes of our society.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 San Diego Parochial School Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
